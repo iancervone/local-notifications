@@ -61,6 +61,9 @@
 		3C14B3982368F01C005F83AB = {
 			isa = PBXGroup;
 			children = (
+				3C804756236CBF480068E0DB /* Controllers */,
+				3C804755236CBF2D0068E0DB /* Models */,
+				3C804757236CBF7F0068E0DB /* Helper Files */,
 				3C14B3A32368F01C005F83AB /* Local-Notifications-Lab */,
 				3C14B3BA2368F01D005F83AB /* Local-Notifications-LabTests */,
 				3C14B3A22368F01C005F83AB /* Products */,
@@ -81,8 +84,6 @@
 			children = (
 				3C14B3A42368F01C005F83AB /* AppDelegate.swift */,
 				3C14B3A62368F01C005F83AB /* SceneDelegate.swift */,
-				3C14B3A82368F01C005F83AB /* ViewController.swift */,
-				3C804753236CBB970068E0DB /* Reminder.swift */,
 				3C14B3AD2368F01D005F83AB /* Assets.xcassets */,
 				3C14B3AF2368F01D005F83AB /* LaunchScreen.storyboard */,
 				3C14B3B22368F01D005F83AB /* Info.plist */,
@@ -97,6 +98,29 @@
 				3C14B3BD2368F01D005F83AB /* Info.plist */,
 			);
 			path = "Local-Notifications-LabTests";
+			sourceTree = "<group>";
+		};
+		3C804755236CBF2D0068E0DB /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				3C804753236CBB970068E0DB /* Reminder.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		3C804756236CBF480068E0DB /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				3C14B3A82368F01C005F83AB /* ViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		3C804757236CBF7F0068E0DB /* Helper Files */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Helper Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
