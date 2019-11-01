@@ -40,10 +40,10 @@ class ViewController: UIViewController {
     guard let title = message.text else {
       errorAlert(title: "Missing Info" , message: "Must enter a message")
       return }
-    let newReminder = 
+//    let newReminder = 
       
     }
-  }
+  
   
   private func errorAlert(title: String, message: String) {
     let alert = UIAlertController(title: title, message: message, preferredStyle: .actionSheet)
